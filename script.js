@@ -19,7 +19,7 @@ function createHeart() {
 
 // "Yes" button click event
 yesBtn.addEventListener("click", () => {
-    responseDiv.textContent = "Yay! You said YES! ❤️";
+    responseDiv.textContent = "Yayyyyy! You said YESSSSSS! ❤️❤️❤️❤️❤️ I LOVE YOU SOOOOOO MUCH";
     responseDiv.style.color = "#FF69B4";
 
     // Create multiple hearts
@@ -30,13 +30,13 @@ yesBtn.addEventListener("click", () => {
 
 // "No" button click event
 noBtn.addEventListener("click", () => {
-    responseDiv.textContent = "Oh no! 😢 Please reconsider!";
+    responseDiv.textContent = "you dont love me?😢";
     responseDiv.style.color = "#FF6B6B";
 
     // Add pleading emojis
     for (let i = 0; i < 5; i++) {
         const emoji = document.createElement("div");
-        emoji.textContent = "🥺";
+        emoji.textContent = "";
         emoji.style.fontSize = "3rem";
         emoji.style.margin = "0.5rem";
         emoji.style.display = "inline-block";
